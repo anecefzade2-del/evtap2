@@ -1,9 +1,16 @@
-namespace CalculatorApp
+﻿namespace calculator2
 {
     partial class Form1
     {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -15,161 +22,294 @@ namespace CalculatorApp
 
         #region Windows Form Designer generated code
 
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
         private void InitializeComponent()
         {
-            this.lblNumberOne = new System.Windows.Forms.Label();
-            this.txtNumberOne = new System.Windows.Forms.TextBox();
-            this.lblNumberTwo = new System.Windows.Forms.Label();
-            this.txtNumberTwo = new System.Windows.Forms.TextBox();
-            this.lblCommand = new System.Windows.Forms.Label();
-            this.cmbCommand = new System.Windows.Forms.ComboBox();
-            this.lblAnswerTitle = new System.Windows.Forms.Label();
-            this.lblAnswer = new System.Windows.Forms.Label();
-            this.btnResult = new System.Windows.Forms.Button();
-            this.btnClear = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
+            button6 = new Button();
+            button7 = new Button();
+            button8 = new Button();
+            button9 = new Button();
+            button10 = new Button();
+            button11 = new Button();
+            button12 = new Button();
+            button13 = new Button();
+            button14 = new Button();
+            button15 = new Button();
+            button16 = new Button();
+            button17 = new Button();
+            button18 = new Button();
+            button19 = new Button();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            SuspendLayout();
             // 
-            // lblNumberOne
+            // button1
             // 
-            this.lblNumberOne.AutoSize = true;
-            this.lblNumberOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.lblNumberOne.ForeColor = System.Drawing.Color.White;
-            this.lblNumberOne.Location = new System.Drawing.Point(38, 20);
-            this.lblNumberOne.Name = "lblNumberOne";
-            this.lblNumberOne.Size = new System.Drawing.Size(111, 20);
-            this.lblNumberOne.TabIndex = 0;
-            this.lblNumberOne.Text = "Number one";
+            button1.Location = new Point(43, 212);
+            button1.Name = "button1";
+            button1.Size = new Size(46, 23);
+            button1.TabIndex = 0;
+            button1.Text = "1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
-            // txtNumberOne
+            // button2
             // 
-            this.txtNumberOne.Location = new System.Drawing.Point(42, 45);
-            this.txtNumberOne.Name = "txtNumberOne";
-            this.txtNumberOne.Size = new System.Drawing.Size(260, 20);
-            this.txtNumberOne.TabIndex = 1;
-            this.txtNumberOne.Text = "0";
+            button2.Location = new Point(109, 212);
+            button2.Name = "button2";
+            button2.Size = new Size(45, 23);
+            button2.TabIndex = 1;
+            button2.Text = "2";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
-            // lblNumberTwo
+            // button3
             // 
-            this.lblNumberTwo.AutoSize = true;
-            this.lblNumberTwo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.lblNumberTwo.ForeColor = System.Drawing.Color.White;
-            this.lblNumberTwo.Location = new System.Drawing.Point(38, 95);
-            this.lblNumberTwo.Name = "lblNumberTwo";
-            this.lblNumberTwo.Size = new System.Drawing.Size(110, 20);
-            this.lblNumberTwo.TabIndex = 2;
-            this.lblNumberTwo.Text = "Number two";
+            button3.Location = new Point(177, 212);
+            button3.Name = "button3";
+            button3.Size = new Size(45, 23);
+            button3.TabIndex = 2;
+            button3.Text = "3";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
-            // txtNumberTwo
+            // button4
             // 
-            this.txtNumberTwo.Location = new System.Drawing.Point(42, 120);
-            this.txtNumberTwo.Name = "txtNumberTwo";
-            this.txtNumberTwo.Size = new System.Drawing.Size(260, 20);
-            this.txtNumberTwo.TabIndex = 3;
-            this.txtNumberTwo.Text = "0";
+            button4.Location = new Point(43, 170);
+            button4.Name = "button4";
+            button4.Size = new Size(46, 23);
+            button4.TabIndex = 3;
+            button4.Text = "4";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
-            // lblCommand
+            // button5
             // 
-            this.lblCommand.AutoSize = true;
-            this.lblCommand.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.lblCommand.ForeColor = System.Drawing.Color.White;
-            this.lblCommand.Location = new System.Drawing.Point(38, 168);
-            this.lblCommand.Name = "lblCommand";
-            this.lblCommand.Size = new System.Drawing.Size(89, 20);
-            this.lblCommand.TabIndex = 4;
-            this.lblCommand.Text = "Command";
+            button5.Location = new Point(109, 170);
+            button5.Name = "button5";
+            button5.Size = new Size(45, 23);
+            button5.TabIndex = 4;
+            button5.Text = "5";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
-            // cmbCommand
+            // button6
             // 
-            this.cmbCommand.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbCommand.FormattingEnabled = true;
-            this.cmbCommand.Items.AddRange(new object[] {
-            "+",
-            "-",
-            "*",
-            "/"});
-            this.cmbCommand.Location = new System.Drawing.Point(42, 193);
-            this.cmbCommand.Name = "cmbCommand";
-            this.cmbCommand.Size = new System.Drawing.Size(260, 21);
-            this.cmbCommand.TabIndex = 5;
+            button6.Location = new Point(177, 170);
+            button6.Name = "button6";
+            button6.Size = new Size(45, 23);
+            button6.TabIndex = 5;
+            button6.Text = "6";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
-            // lblAnswerTitle
+            // button7
             // 
-            this.lblAnswerTitle.AutoSize = true;
-            this.lblAnswerTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.lblAnswerTitle.ForeColor = System.Drawing.Color.White;
-            this.lblAnswerTitle.Location = new System.Drawing.Point(38, 245);
-            this.lblAnswerTitle.Name = "lblAnswerTitle";
-            this.lblAnswerTitle.Size = new System.Drawing.Size(72, 20);
-            this.lblAnswerTitle.TabIndex = 6;
-            this.lblAnswerTitle.Text = "Answer:";
+            button7.Location = new Point(43, 131);
+            button7.Name = "button7";
+            button7.Size = new Size(46, 23);
+            button7.TabIndex = 6;
+            button7.Text = "7";
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
-            // lblAnswer
+            // button8
             // 
-            this.lblAnswer.AutoSize = true;
-            this.lblAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.lblAnswer.ForeColor = System.Drawing.Color.White;
-            this.lblAnswer.Location = new System.Drawing.Point(130, 245);
-            this.lblAnswer.Name = "lblAnswer";
-            this.lblAnswer.Size = new System.Drawing.Size(18, 20);
-            this.lblAnswer.TabIndex = 7;
-            this.lblAnswer.Text = "0";
+            button8.Location = new Point(109, 131);
+            button8.Name = "button8";
+            button8.Size = new Size(45, 23);
+            button8.TabIndex = 7;
+            button8.Text = "8";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
             // 
-            // btnResult
+            // button9
             // 
-            this.btnResult.Location = new System.Drawing.Point(42, 285);
-            this.btnResult.Name = "btnResult";
-            this.btnResult.Size = new System.Drawing.Size(260, 40);
-            this.btnResult.TabIndex = 8;
-            this.btnResult.Text = "Result";
-            this.btnResult.UseVisualStyleBackColor = true;
-            this.btnResult.Click += new System.EventHandler(this.btnResult_Click);
+            button9.Location = new Point(177, 131);
+            button9.Name = "button9";
+            button9.Size = new Size(44, 23);
+            button9.TabIndex = 8;
+            button9.Text = "9";
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
-            // btnClear
+            // button10
             // 
-            this.btnClear.Location = new System.Drawing.Point(42, 345);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(260, 40);
-            this.btnClear.TabIndex = 9;
-            this.btnClear.Text = "Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            button10.Location = new Point(109, 254);
+            button10.Name = "button10";
+            button10.Size = new Size(45, 23);
+            button10.TabIndex = 9;
+            button10.Text = "0";
+            button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
+            // 
+            // button11
+            // 
+            button11.Location = new Point(43, 254);
+            button11.Name = "button11";
+            button11.Size = new Size(46, 23);
+            button11.TabIndex = 10;
+            button11.Text = "00";
+            button11.UseVisualStyleBackColor = true;
+            button11.Click += button11_Click;
+            // 
+            // button12
+            // 
+            button12.Location = new Point(177, 254);
+            button12.Name = "button12";
+            button12.Size = new Size(46, 23);
+            button12.TabIndex = 11;
+            button12.Text = ".";
+            button12.UseVisualStyleBackColor = true;
+            button12.Click += button12_Click;
+            // 
+            // button13
+            // 
+            button13.Location = new Point(229, 254);
+            button13.Name = "button13";
+            button13.Size = new Size(43, 23);
+            button13.TabIndex = 12;
+            button13.Text = "=";
+            button13.UseVisualStyleBackColor = true;
+            button13.Click += button13_Click;
+            // 
+            // button14
+            // 
+            button14.Location = new Point(229, 212);
+            button14.Name = "button14";
+            button14.Size = new Size(43, 23);
+            button14.TabIndex = 13;
+            button14.Text = "+";
+            button14.UseVisualStyleBackColor = true;
+            button14.Click += button14_Click;
+            // 
+            // button15
+            // 
+            button15.Location = new Point(230, 170);
+            button15.Name = "button15";
+            button15.Size = new Size(42, 23);
+            button15.TabIndex = 14;
+            button15.Text = "-";
+            button15.UseVisualStyleBackColor = true;
+            button15.Click += button15_Click;
+            // 
+            // button16
+            // 
+            button16.Location = new Point(230, 131);
+            button16.Name = "button16";
+            button16.Size = new Size(43, 23);
+            button16.TabIndex = 15;
+            button16.Text = "*";
+            button16.UseVisualStyleBackColor = true;
+            button16.Click += button16_Click;
+            // 
+            // button17
+            // 
+            button17.Location = new Point(229, 93);
+            button17.Name = "button17";
+            button17.Size = new Size(44, 23);
+            button17.TabIndex = 16;
+            button17.Text = "/";
+            button17.UseVisualStyleBackColor = true;
+            button17.Click += button17_Click;
+            // 
+            // button18
+            // 
+            button18.Location = new Point(143, 93);
+            button18.Name = "button18";
+            button18.Size = new Size(81, 23);
+            button18.TabIndex = 17;
+            button18.Text = "back";
+            button18.UseVisualStyleBackColor = true;
+            button18.Click += button18_Click;
+            // 
+            // button19
+            // 
+            button19.Location = new Point(43, 93);
+            button19.Name = "button19";
+            button19.Size = new Size(79, 23);
+            button19.TabIndex = 18;
+            button19.Text = "C";
+            button19.UseVisualStyleBackColor = true;
+            button19.Click += button19_Click;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(43, 14);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(229, 23);
+            textBox1.TabIndex = 19;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(43, 52);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(229, 23);
+            textBox2.TabIndex = 20;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Teal;
-            this.ClientSize = new System.Drawing.Size(344, 411);
-            this.Controls.Add(this.btnClear);
-            this.Controls.Add(this.btnResult);
-            this.Controls.Add(this.lblAnswer);
-            this.Controls.Add(this.lblAnswerTitle);
-            this.Controls.Add(this.cmbCommand);
-            this.Controls.Add(this.lblCommand);
-            this.Controls.Add(this.txtNumberTwo);
-            this.Controls.Add(this.lblNumberTwo);
-            this.Controls.Add(this.txtNumberOne);
-            this.Controls.Add(this.lblNumberOne);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MaximizeBox = false;
-            this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Calculator";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(255, 224, 192);
+            ClientSize = new Size(324, 316);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
+            Controls.Add(button19);
+            Controls.Add(button18);
+            Controls.Add(button17);
+            Controls.Add(button16);
+            Controls.Add(button15);
+            Controls.Add(button14);
+            Controls.Add(button13);
+            Controls.Add(button12);
+            Controls.Add(button11);
+            Controls.Add(button10);
+            Controls.Add(button9);
+            Controls.Add(button8);
+            Controls.Add(button7);
+            Controls.Add(button6);
+            Controls.Add(button5);
+            Controls.Add(button4);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Name = "Form1";
+            Text = "t";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private System.Windows.Forms.Label lblNumberOne;
-        private System.Windows.Forms.TextBox txtNumberOne;
-        private System.Windows.Forms.Label lblNumberTwo;
-        private System.Windows.Forms.TextBox txtNumberTwo;
-        private System.Windows.Forms.Label lblCommand;
-        private System.Windows.Forms.ComboBox cmbCommand;
-        private System.Windows.Forms.Label lblAnswerTitle;
-        private System.Windows.Forms.Label lblAnswer;
-        private System.Windows.Forms.Button btnResult;
-        private System.Windows.Forms.Button btnClear;
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Button button4;
+        private Button button5;
+        private Button button6;
+        private Button button7;
+        private Button button8;
+        private Button button9;
+        private Button button10;
+        private Button button11;
+        private Button button12;
+        private Button button13;
+        private Button button14;
+        private Button button15;
+        private Button button16;
+        private Button button17;
+        private Button button18;
+        private Button button19;
+        private TextBox textBox1;
+        private TextBox textBox2;
     }
 }
