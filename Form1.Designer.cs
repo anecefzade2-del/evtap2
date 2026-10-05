@@ -1,315 +1,316 @@
-﻿namespace calculator2
+﻿namespace BKI
 {
     partial class Form1
     {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        private System.Windows.Forms.Panel panelLeft;
+        private System.Windows.Forms.Panel panelRight;
+
+        private System.Windows.Forms.Label lblHeight;
+        private System.Windows.Forms.Label lblWeight;
+
+        private System.Windows.Forms.TextBox txtHeight;
+        private System.Windows.Forms.TextBox txtWeight;
+
+        private System.Windows.Forms.Button btnOK;
+
+        private System.Windows.Forms.PictureBox pictureBox1;
+
+        private System.Windows.Forms.Label lblResult;
+
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
             {
                 components.Dispose();
             }
+
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
-
-        /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
-            button13 = new Button();
-            button14 = new Button();
-            button15 = new Button();
-            button16 = new Button();
-            button17 = new Button();
-            button18 = new Button();
-            button19 = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            SuspendLayout();
-            // 
-            // button1
-            // 
-            button1.Location = new Point(43, 212);
-            button1.Name = "button1";
-            button1.Size = new Size(46, 23);
-            button1.TabIndex = 0;
-            button1.Text = "1";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(109, 212);
-            button2.Name = "button2";
-            button2.Size = new Size(45, 23);
-            button2.TabIndex = 1;
-            button2.Text = "2";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(177, 212);
-            button3.Name = "button3";
-            button3.Size = new Size(45, 23);
-            button3.TabIndex = 2;
-            button3.Text = "3";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
-            // 
-            // button4
-            // 
-            button4.Location = new Point(43, 170);
-            button4.Name = "button4";
-            button4.Size = new Size(46, 23);
-            button4.TabIndex = 3;
-            button4.Text = "4";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
-            // 
-            // button5
-            // 
-            button5.Location = new Point(109, 170);
-            button5.Name = "button5";
-            button5.Size = new Size(45, 23);
-            button5.TabIndex = 4;
-            button5.Text = "5";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
-            // 
-            // button6
-            // 
-            button6.Location = new Point(177, 170);
-            button6.Name = "button6";
-            button6.Size = new Size(45, 23);
-            button6.TabIndex = 5;
-            button6.Text = "6";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += button6_Click;
-            // 
-            // button7
-            // 
-            button7.Location = new Point(43, 131);
-            button7.Name = "button7";
-            button7.Size = new Size(46, 23);
-            button7.TabIndex = 6;
-            button7.Text = "7";
-            button7.UseVisualStyleBackColor = true;
-            button7.Click += button7_Click;
-            // 
-            // button8
-            // 
-            button8.Location = new Point(109, 131);
-            button8.Name = "button8";
-            button8.Size = new Size(45, 23);
-            button8.TabIndex = 7;
-            button8.Text = "8";
-            button8.UseVisualStyleBackColor = true;
-            button8.Click += button8_Click;
-            // 
-            // button9
-            // 
-            button9.Location = new Point(177, 131);
-            button9.Name = "button9";
-            button9.Size = new Size(44, 23);
-            button9.TabIndex = 8;
-            button9.Text = "9";
-            button9.UseVisualStyleBackColor = true;
-            button9.Click += button9_Click;
-            // 
-            // button10
-            // 
-            button10.Location = new Point(109, 254);
-            button10.Name = "button10";
-            button10.Size = new Size(45, 23);
-            button10.TabIndex = 9;
-            button10.Text = "0";
-            button10.UseVisualStyleBackColor = true;
-            button10.Click += button10_Click;
-            // 
-            // button11
-            // 
-            button11.Location = new Point(43, 254);
-            button11.Name = "button11";
-            button11.Size = new Size(46, 23);
-            button11.TabIndex = 10;
-            button11.Text = "00";
-            button11.UseVisualStyleBackColor = true;
-            button11.Click += button11_Click;
-            // 
-            // button12
-            // 
-            button12.Location = new Point(177, 254);
-            button12.Name = "button12";
-            button12.Size = new Size(46, 23);
-            button12.TabIndex = 11;
-            button12.Text = ".";
-            button12.UseVisualStyleBackColor = true;
-            button12.Click += button12_Click;
-            // 
-            // button13
-            // 
-            button13.Location = new Point(229, 254);
-            button13.Name = "button13";
-            button13.Size = new Size(43, 23);
-            button13.TabIndex = 12;
-            button13.Text = "=";
-            button13.UseVisualStyleBackColor = true;
-            button13.Click += button13_Click;
-            // 
-            // button14
-            // 
-            button14.Location = new Point(229, 212);
-            button14.Name = "button14";
-            button14.Size = new Size(43, 23);
-            button14.TabIndex = 13;
-            button14.Text = "+";
-            button14.UseVisualStyleBackColor = true;
-            button14.Click += button14_Click;
-            // 
-            // button15
-            // 
-            button15.Location = new Point(230, 170);
-            button15.Name = "button15";
-            button15.Size = new Size(42, 23);
-            button15.TabIndex = 14;
-            button15.Text = "-";
-            button15.UseVisualStyleBackColor = true;
-            button15.Click += button15_Click;
-            // 
-            // button16
-            // 
-            button16.Location = new Point(230, 131);
-            button16.Name = "button16";
-            button16.Size = new Size(43, 23);
-            button16.TabIndex = 15;
-            button16.Text = "*";
-            button16.UseVisualStyleBackColor = true;
-            button16.Click += button16_Click;
-            // 
-            // button17
-            // 
-            button17.Location = new Point(229, 93);
-            button17.Name = "button17";
-            button17.Size = new Size(44, 23);
-            button17.TabIndex = 16;
-            button17.Text = "/";
-            button17.UseVisualStyleBackColor = true;
-            button17.Click += button17_Click;
-            // 
-            // button18
-            // 
-            button18.Location = new Point(143, 93);
-            button18.Name = "button18";
-            button18.Size = new Size(81, 23);
-            button18.TabIndex = 17;
-            button18.Text = "back";
-            button18.UseVisualStyleBackColor = true;
-            button18.Click += button18_Click;
-            // 
-            // button19
-            // 
-            button19.Location = new Point(43, 93);
-            button19.Name = "button19";
-            button19.Size = new Size(79, 23);
-            button19.TabIndex = 18;
-            button19.Text = "C";
-            button19.UseVisualStyleBackColor = true;
-            button19.Click += button19_Click;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(43, 14);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(229, 23);
-            textBox1.TabIndex = 19;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(43, 52);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(229, 23);
-            textBox2.TabIndex = 20;
-            // 
-            // Form1
-            // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(255, 224, 192);
-            ClientSize = new Size(324, 316);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(button19);
-            Controls.Add(button18);
-            Controls.Add(button17);
-            Controls.Add(button16);
-            Controls.Add(button15);
-            Controls.Add(button14);
-            Controls.Add(button13);
-            Controls.Add(button12);
-            Controls.Add(button11);
-            Controls.Add(button10);
-            Controls.Add(button9);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Name = "Form1";
-            Text = "t";
-            ResumeLayout(false);
-            PerformLayout();
+            this.panelLeft = new System.Windows.Forms.Panel();
+            this.panelRight = new System.Windows.Forms.Panel();
+
+            this.lblHeight = new System.Windows.Forms.Label();
+            this.lblWeight = new System.Windows.Forms.Label();
+
+            this.txtHeight = new System.Windows.Forms.TextBox();
+            this.txtWeight = new System.Windows.Forms.TextBox();
+
+            this.btnOK = new System.Windows.Forms.Button();
+
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+
+            this.lblResult = new System.Windows.Forms.Label();
+
+            this.panelLeft.SuspendLayout();
+            this.panelRight.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+
+            this.SuspendLayout();
+
+           
+
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+
+            this.ClientSize = new System.Drawing.Size(680, 680);
+
+            this.BackColor = System.Drawing.Color.White;
+
+            this.FormBorderStyle =
+                System.Windows.Forms.FormBorderStyle.FixedSingle;
+
+            this.MaximizeBox = false;
+
+            this.StartPosition =
+                System.Windows.Forms.FormStartPosition.CenterScreen;
+
+            this.Text = "BKI Hesablama";
+
+           
+            this.panelLeft.BackColor =
+                System.Drawing.Color.FromArgb(60, 60, 60);
+
+            this.panelLeft.Location =
+                new System.Drawing.Point(0, 0);
+
+            this.panelLeft.Name = "panelLeft";
+
+            this.panelLeft.Size =
+                new System.Drawing.Size(300, 680);
+
+            this.panelLeft.TabIndex = 0;
+
+           
+
+            this.lblHeight.AutoSize = true;
+
+            this.lblHeight.ForeColor =
+                System.Drawing.Color.White;
+
+            this.lblHeight.Font =
+                new System.Drawing.Font(
+                    "Segoe UI",
+                    10F,
+                    System.Drawing.FontStyle.Regular);
+
+            this.lblHeight.Location =
+                new System.Drawing.Point(63, 120);
+
+            this.lblHeight.Name = "lblHeight";
+
+            this.lblHeight.Size =
+                new System.Drawing.Size(45, 19);
+
+            this.lblHeight.Text = "Height";
+
+           
+
+            this.txtHeight.BackColor =
+                System.Drawing.Color.White;
+
+            this.txtHeight.BorderStyle =
+                System.Windows.Forms.BorderStyle.FixedSingle;
+
+            this.txtHeight.Font =
+                new System.Drawing.Font(
+                    "Segoe UI",
+                    11F);
+
+            this.txtHeight.Location =
+                new System.Drawing.Point(63, 140);
+
+            this.txtHeight.Name = "txtHeight";
+
+            this.txtHeight.Size =
+                new System.Drawing.Size(172, 27);
+
+            this.txtHeight.TabIndex = 0;
+
+            
+
+            this.lblWeight.AutoSize = true;
+
+            this.lblWeight.ForeColor =
+                System.Drawing.Color.White;
+
+            this.lblWeight.Font =
+                new System.Drawing.Font(
+                    "Segoe UI",
+                    10F);
+
+            this.lblWeight.Location =
+                new System.Drawing.Point(63, 195);
+
+            this.lblWeight.Name = "lblWeight";
+
+            this.lblWeight.Size =
+                new System.Drawing.Size(50, 19);
+
+            this.lblWeight.Text = "Weight";
+
+          
+
+            this.txtWeight.BackColor =
+                System.Drawing.Color.White;
+
+            this.txtWeight.BorderStyle =
+                System.Windows.Forms.BorderStyle.FixedSingle;
+
+            this.txtWeight.Font =
+                new System.Drawing.Font(
+                    "Segoe UI",
+                    11F);
+
+            this.txtWeight.Location =
+                new System.Drawing.Point(63, 215);
+
+            this.txtWeight.Name = "txtWeight";
+
+            this.txtWeight.Size =
+                new System.Drawing.Size(172, 27);
+
+            this.txtWeight.TabIndex = 1;
+
+         
+
+            this.btnOK.BackColor =
+                System.Drawing.Color.FromArgb(255, 128, 0);
+
+            this.btnOK.FlatAppearance.BorderColor =
+                System.Drawing.Color.White;
+
+            this.btnOK.FlatAppearance.BorderSize = 2;
+
+            this.btnOK.FlatStyle =
+                System.Windows.Forms.FlatStyle.Flat;
+
+            this.btnOK.Font =
+                new System.Drawing.Font(
+                    "Segoe UI",
+                    11F,
+                    System.Drawing.FontStyle.Regular);
+
+            this.btnOK.ForeColor =
+                System.Drawing.Color.Black;
+
+            this.btnOK.Location =
+                new System.Drawing.Point(65, 320);
+
+            this.btnOK.Name = "btnOK";
+
+            this.btnOK.Size =
+                new System.Drawing.Size(170, 100);
+
+            this.btnOK.TabIndex = 2;
+
+            this.btnOK.Text = "OK";
+
+            this.btnOK.UseVisualStyleBackColor = false;
+
+            this.btnOK.Click +=
+                new System.EventHandler(this.btnOK_Click);
+
+          
+
+            this.panelLeft.Controls.Add(this.lblHeight);
+            this.panelLeft.Controls.Add(this.txtHeight);
+
+            this.panelLeft.Controls.Add(this.lblWeight);
+            this.panelLeft.Controls.Add(this.txtWeight);
+
+            this.panelLeft.Controls.Add(this.btnOK);
+
+        
+
+            this.panelRight.BackColor =
+                System.Drawing.Color.White;
+
+            this.panelRight.Location =
+                new System.Drawing.Point(300, 0);
+
+            this.panelRight.Name = "panelRight";
+
+            this.panelRight.Size =
+                new System.Drawing.Size(380, 680);
+
+            this.panelRight.TabIndex = 1;
+
+
+
+            this.pictureBox1.BackColor =
+                System.Drawing.Color.White;
+
+            this.pictureBox1.BorderStyle =
+                System.Windows.Forms.BorderStyle.None;
+
+            this.pictureBox1.Location =
+                new System.Drawing.Point(15, 40);
+
+            this.pictureBox1.Name = "pictureBox1";
+
+            this.pictureBox1.Size =
+                new System.Drawing.Size(350, 450);
+
+            this.pictureBox1.SizeMode =
+                System.Windows.Forms.PictureBoxSizeMode.Zoom;
+
+            this.pictureBox1.TabIndex = 3;
+
+            this.pictureBox1.TabStop = false;
+
+       
+
+            this.lblResult.AutoSize = false;
+
+            this.lblResult.Font =
+                new System.Drawing.Font(
+                    "Segoe UI",
+                    14F,
+                    System.Drawing.FontStyle.Bold);
+
+            this.lblResult.ForeColor =
+                System.Drawing.Color.FromArgb(50, 50, 50);
+
+            this.lblResult.Location =
+                new System.Drawing.Point(20, 510);
+
+            this.lblResult.Name = "lblResult";
+
+            this.lblResult.Size =
+                new System.Drawing.Size(340, 100);
+
+            this.lblResult.Text =
+                "BKI nəticəsi";
+
+            this.lblResult.TextAlign =
+                System.Drawing.ContentAlignment.MiddleCenter;
+
+
+
+            this.panelRight.Controls.Add(this.pictureBox1);
+            this.panelRight.Controls.Add(this.lblResult);
+
+
+
+            this.Controls.Add(this.panelRight);
+            this.Controls.Add(this.panelLeft);
+
+
+
+            this.panelLeft.ResumeLayout(false);
+            this.panelLeft.PerformLayout();
+
+            this.panelRight.ResumeLayout(false);
+
+            ((System.ComponentModel.ISupportInitialize)
+                (this.pictureBox1)).EndInit();
+
+            this.ResumeLayout(false);
         }
-
-        #endregion
-
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button16;
-        private Button button17;
-        private Button button18;
-        private Button button19;
-        private TextBox textBox1;
-        private TextBox textBox2;
     }
 }

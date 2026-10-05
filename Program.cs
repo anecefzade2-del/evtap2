@@ -1,4 +1,4 @@
-namespace calculator2
+namespace BKI
 {
     internal static class Program
     {

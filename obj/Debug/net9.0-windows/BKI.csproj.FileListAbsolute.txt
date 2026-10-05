@@ -1,0 +1,16 @@
+C:\Users\Student\Desktop\BKI\bin\Debug\net9.0-windows\BKI.exe
+C:\Users\Student\Desktop\BKI\bin\Debug\net9.0-windows\BKI.deps.json
+C:\Users\Student\Desktop\BKI\bin\Debug\net9.0-windows\BKI.runtimeconfig.json
+C:\Users\Student\Desktop\BKI\bin\Debug\net9.0-windows\BKI.dll
+C:\Users\Student\Desktop\BKI\bin\Debug\net9.0-windows\BKI.pdb
+C:\Users\Student\Desktop\BKI\obj\Debug\net9.0-windows\BKI.Form1.resources
+C:\Users\Student\Desktop\BKI\obj\Debug\net9.0-windows\BKI.csproj.GenerateResource.cache
+C:\Users\Student\Desktop\BKI\obj\Debug\net9.0-windows\BKI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\BKI\obj\Debug\net9.0-windows\BKI.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\BKI\obj\Debug\net9.0-windows\BKI.AssemblyInfo.cs
+C:\Users\Student\Desktop\BKI\obj\Debug\net9.0-windows\BKI.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\BKI\obj\Debug\net9.0-windows\BKI.dll
+C:\Users\Student\Desktop\BKI\obj\Debug\net9.0-windows\refint\BKI.dll
+C:\Users\Student\Desktop\BKI\obj\Debug\net9.0-windows\BKI.pdb
+C:\Users\Student\Desktop\BKI\obj\Debug\net9.0-windows\BKI.genruntimeconfig.cache
+C:\Users\Student\Desktop\BKI\obj\Debug\net9.0-windows\ref\BKI.dll
